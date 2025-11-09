@@ -12,7 +12,7 @@ const CurrentlyMaking = () => {
       </p>
 
       <p className="flex text-[18px] max-sm:flex-col max-sm:text-sm text-gray-500 items-center justify-center text-center leading-relaxed">
-         Something new called  
+        Learning Something new called  
         <span className="font-handwritten text-[24px] px-3 text-gray-800 inline-flex items-center gap-2  my-2">
           <GiAxeInLog className="text-[50px] text-gray-700 shadow-md py-2 px-1 transform hover:-translate-2 transition-all" /> Backend
         </span>
