@@ -7,7 +7,7 @@ const CurrentlyMaking = () => {
     <section className="flex flex-col items-center justify-center mt-48 max-sm:mt-24 gap-5 text-gray-700 font-mono text-center ">
       
       <p className="text-[22px]  text-gray-700 font-bold flex items-center gap-2">
-        Currently cooking
+        Currently I'am into
         <FaSmile className="text-blue-200 text-[22px]" />
       </p>
 
