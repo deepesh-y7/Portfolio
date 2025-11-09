@@ -60,7 +60,7 @@ const Home = () => {
               className={`absolute w-full cursor-pointer font-PoiretOne  text-xl text-black flex items-center justify-center left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-700 ease-out delay-100 hover:scale-115 hover:underline [text-shadow:0_4px_6px_rgba(0,0,0,0.2)]
               ${
                 showMsg
-                  ? "opacity-100 translate-x-20 -translate-y-12"
+                  ? "opacity-100 translate-x-18 -translate-y-10"
                   : "opacity-0 translate-x-0 translate-y-0"
               }
               group-hover:opacity-100 group-hover:translate-x-20 group-hover:-translate-y-12`}
