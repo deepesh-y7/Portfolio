@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import proimg from "../../assets/profile3.png";
 import BlurText from "../animation/Blurtext";
-import AboutPara from "../text/aboutPara";
 
 const handleAnimationComplete = () => {
   console.log("Animation completed!");
@@ -9,22 +8,22 @@ const handleAnimationComplete = () => {
 
 const Home = () => {
   const [showHii, setShowHii] = useState(false);
-  const [showMsg, setShowMsg] = useState(false);
+  // const [showMsg, setShowMsg] = useState(false);
 
   useEffect(() => {
     // Auto-appear
     const timer1 = setTimeout(() => setShowHii(true), 3000);
-    const timer2 = setTimeout(() => setShowMsg(true), 4000);
+    // const timer2 = setTimeout(() => setShowMsg(true), 4000);
 
     // Auto-hide after short duration
     const hide1 = setTimeout(() => setShowHii(false), 7000);
-    const hide2 = setTimeout(() => setShowMsg(false), 8000);
+    // const hide2 = setTimeout(() => setShowMsg(false), 8000);
 
     return () => {
       clearTimeout(timer1);
-      clearTimeout(timer2);
+      // clearTimeout(timer2);
       clearTimeout(hide1);
-      clearTimeout(hide2);
+      // clearTimeout(hide2);
     };
   }, []);
 
@@ -46,16 +45,16 @@ const Home = () => {
             className={`absolute w-auto px-3 py-1 text-white bg-black rounded-lg text-sm font-medium left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-700 ease-out shadow-lg
             ${
               showHii
-                ? "opacity-100 -translate-x-24 -translate-y-20"
+                ? "opacity-100 translate-x-20 -translate-y-12"
                 : "opacity-0 translate-x-0 translate-y-0"
             }
-            group-hover:opacity-100 group-hover:-translate-x-24 group-hover:-translate-y-20`}
+            group-hover:opacity-100 group-hover:translate-x-20 group-hover:-translate-y-12`}
           >
             Hii
           </span>
 
           {/* Msg me button */}
-          <a
+          {/* <a
           //  href="https://x.com/intent/follow?screen_name=Deepesh211103"
            >
             <button
@@ -69,20 +68,33 @@ const Home = () => {
             >
               Msg me!
             </button>
-          </a>
+          </a> */}
         </div>
 
         {/* intro text */}
         <div className="mt-4 px-32 max-sm:px-4 text-center">
           <BlurText
-            text="Hi There! I'm Deepesh"
+            text="I'm Deepesh"
             delay={200}
             animateBy="words"
             direction="top"
             onAnimationComplete={handleAnimationComplete}
             className="text-[3rem] font-GingerBrand mt-2 max-sm:text-[1.6rem] font-bold tracking-tighters inline-block"
           />
-          <AboutPara />
+
+
+          <div className="relative w-full flex justify-center">
+      <h1
+        className="mt-3 max-sm:mt-5 max-sm:px-[2px] text-[18px] font-mono max-sm:text-sm text-center tracking-normal inter leading-8 max-sm:leading-6 text-gray-500"
+      >
+        I experiment, fail fast, and build faster
+        into code, systems, and anything that bends limits.
+        <br />
+        Driven by curiosity, creation, and chaos.
+        <br />
+        On the endless road to mastery.
+      </h1>
+    </div>
         </div>
 
         {/* buttons */}

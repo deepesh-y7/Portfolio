@@ -45,7 +45,7 @@ const Profile = () => {
 
       {/* Title */}
       <h1 className="profile-title text-[2.6rem] max-sm:text-[1.8rem] font-semibold tracking-tight text-center mb-16 max-sm:mb-8">
-        Evolution Of Deepesh
+        Evolution 
       </h1>
 
       {aboutData.map((year, index) => (
