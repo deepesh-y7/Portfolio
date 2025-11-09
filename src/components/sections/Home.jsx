@@ -55,7 +55,9 @@ const Home = () => {
           </span>
 
           {/* Msg me button */}
-          <a href="https://x.com/intent/follow?screen_name=Deepesh211103">
+          <a
+          //  href="https://x.com/intent/follow?screen_name=Deepesh211103"
+           >
             <button
               className={`absolute w-full cursor-pointer font-PoiretOne  text-xl text-black flex items-center justify-center left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-700 ease-out delay-100 hover:scale-115 hover:underline [text-shadow:0_4px_6px_rgba(0,0,0,0.2)]
               ${
