@@ -1,23 +1,19 @@
 @import "tailwindcss";
 
+
 @font-face {
-    font-family:PoiretOne ;
-    src: url(./fonts/PoiretOne-Regular.ttf)
+  font-family: GingerBrand;
+  src: url(./fonts/GingerBrand.ttf) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-    font-family:GingerBrand ;
-    src: url(./fonts/GingerBrand.ttf)
+  font-family: Caveat;
+  src: url(./fonts/Caveat-Regular.ttf) format("truetype");
+  font-display: swap;
 }
 
-
-@font-face {
-    font-family:Caveat ;
-    src: url(./fonts/Caveat-Regular.ttf)
-}
-
-
-@theme{
-    --font-GingerBrand: GingerBrand , 'sans-serif';
-    --font-Caveat: Caveat , 'sans-serif';
+@theme {
+  --font-GingerBrand: GingerBrand, 'sans-serif';
+  --font-Caveat: Caveat, 'sans-serif';
 }
