@@ -12,7 +12,7 @@ const Home = () => {
 
   useEffect(() => {
     // Auto-appear
-    const timer1 = setTimeout(() => setShowHii(true), 3000);
+    const timer1 = setTimeout(() => setShowHii(true), 2000);
     // const timer2 = setTimeout(() => setShowMsg(true), 4000);
 
     // Auto-hide after short duration
