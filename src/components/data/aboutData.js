@@ -50,10 +50,9 @@ const aboutData = [
   },
   {
     year: 2020,
-    
+  
     data: [
       "First spark of curiosity when i started using Internet, spent time exploring and observing how digital things work.",
-      "Started dreaming of building something of my own one day."
     ]
   },
   {
