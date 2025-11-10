@@ -16,7 +16,7 @@ const Home = () => {
     // const timer2 = setTimeout(() => setShowMsg(true), 4000);
 
     // Auto-hide after short duration
-    const hide1 = setTimeout(() => setShowHii(false), 7000);
+    const hide1 = setTimeout(() => setShowHii(false), 6000);
     // const hide2 = setTimeout(() => setShowMsg(false), 8000);
 
     return () => {
