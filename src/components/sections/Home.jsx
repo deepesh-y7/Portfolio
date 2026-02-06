@@ -87,12 +87,11 @@ const Home = () => {
       <h1
         className="mt-3 max-sm:mt-5 max-sm:px-[2px] text-[18px] font-mono max-sm:text-sm text-center tracking-normal inter leading-8 max-sm:leading-6 text-gray-500"
       >
-        I experiment, fail fast, and build faster
-        into code, systems, and anything that bends limits.
+        I’m Deepesh, a Frontend Developer focused on building modern, responsive, and scalable web experiences.
         <br />
-        Driven by curiosity, creation, and chaos.
+       I work with React, JavaScript, and modern UI tools to create clean interfaces, reusable components, and smooth interactions.
         <br />
-        On the endless road to mastery.
+        Curious by nature. Builder by choice.
       </h1>
     </div>
         </div>
