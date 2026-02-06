@@ -85,11 +85,11 @@ const Home = () => {
 
           <div className="relative w-full flex justify-center">
       <h1
-        className="mt-3 max-sm:mt-5 max-sm:px-[2px] text-[18px] font-mono max-sm:text-sm text-center tracking-normal inter leading-8 max-sm:leading-6 text-gray-500"
+        className="mt-3 max-sm:mt-5 max-sm:px-[2px] text-[15px] font-mono max-sm:text-sm text-center tracking-normal inter leading-8 max-sm:leading-6 text-gray-500"
       >
-        I’m Deepesh, a Frontend Developer focused on building modern, responsive, and scalable web experiences.
+        A Frontend Developer focused on building modern and scalable web experiences.
         <br />
-       I work with React, JavaScript, and modern UI tools to create clean interfaces, reusable components, and smooth interactions.
+       I work with React and modern UI tools to create clean interfaces, reusable components, and smooth interactions.
         <br />
         Curious by nature. Builder by choice.
       </h1>
